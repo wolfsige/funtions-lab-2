@@ -40,7 +40,12 @@ Exercise 3:
   - Define a function, as a function declaration, `isCharAVowel` that takes a character as an argument and returns true if it is a vowel, false otherwise.
 */
 
-
+function isCharAVowel(char){
+  if (char.toUpperCase() === "A" || char.toUpperCase() === "E" || char.toUpperCase() === "I" || char.toUpperCase() === "O" || char.toUpperCase() === "U"){
+    return true
+  }
+  return false
+}
 
 console.log(
 `Exercise 3 Result:
