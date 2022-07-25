@@ -42,7 +42,7 @@ Exercise 3:
 
 function isCharAVowel(char){
   sameChar = char.toUpperCase()
-  return "aeiou".includes(sameChar)
+  return "AEIOU".includes(sameChar)
 }
 
 console.log(
