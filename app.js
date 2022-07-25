@@ -41,10 +41,8 @@ Exercise 3:
 */
 
 function isCharAVowel(char){
-  if (char.toUpperCase() === "A" || char.toUpperCase() === "E" || char.toUpperCase() === "I" || char.toUpperCase() === "O" || char.toUpperCase() === "U"){
-    return true
-  }
-  return false
+  sameChar = char.toUpperCase()
+  return "aeiou".includes(sameChar)
 }
 
 console.log(
