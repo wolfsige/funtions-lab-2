@@ -65,7 +65,9 @@ Exercise 4:
   - Define a function, as a function expression, `sumArray` that takes an array of numbers and returns the sum of those numbers. For example, `sumArray([2, 4, 5]);` would return `11`.
 */
 
-
+function sumArray(arr){
+  return arr.reduce((num1, num2) => num1 + num2)
+}
 
 console.log("Exercise 4 Result:\n", sumArray([2, 5, 15, 20]))
 
