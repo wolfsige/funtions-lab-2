@@ -87,6 +87,9 @@ Exercise 6:
   - Define a function, as a function expression, `numArgs` that returns the number of arguments passed to the function when called.
 */
 
+var numArgs = function(){
+  return arguments.length
+}
 
 
 console.log(
