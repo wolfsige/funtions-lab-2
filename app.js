@@ -117,7 +117,9 @@ Exercise 8:
   - Define a function, as a function expression, `longestStringInArray` that takes an array of strings as an argument and returns the longest string's length.
 */
 
-
+var longestStringInArray = function(str){
+  return str.reduce((a, b) => a.length > b.length ? a : b)
+}
 
 console.log(
   "Exercise 8 Result:\n",
